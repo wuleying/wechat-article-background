@@ -1,0 +1,5 @@
+@media (prefers-color-scheme: dark) {
+    .appmsg_skin_default .rich_media_area_primary {
+        background-color: #FFFFFF !important;
+    }
+}
