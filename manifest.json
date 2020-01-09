@@ -7,7 +7,7 @@
   "content_scripts":[
     {
       "matches": [
-        "https://mp.weixin.qq.com/s/*"
+        "https://mp.weixin.qq.com/s*"
       ],
       "js": [
         "jquery-2.1.1.min.js",
@@ -18,7 +18,7 @@
   ],
   "permissions": [
     "tabs",
-    "https://mp.weixin.qq.com/s/*"
+    "https://mp.weixin.qq.com/s*"
   ],
   "browser_action": {
     "default_title": "微信文章背景",
