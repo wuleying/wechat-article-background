@@ -1,0 +1,28 @@
+{
+  "name": "Wechat article background",
+  "version": "0.0.1",
+  "author": "wuleying",
+  "homepage_url": "http://zdyi.com",
+  "description": "解决微信文章MAC上查看黑色背景问题",
+  "content_scripts":[
+    {
+      "matches": [
+        "https://mp.weixin.qq.com/s/*"
+      ],
+      "js": [
+        "jquery-2.1.1.min.js",
+        "script.js"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "permissions": [
+    "tabs",
+    "https://mp.weixin.qq.com/s/*"
+  ],
+  "browser_action": {
+    "default_title": "微信文章背景",
+    "default_icon": "icon.png"
+  },
+  "manifest_version": 2
+}
