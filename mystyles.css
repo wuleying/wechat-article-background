@@ -1,5 +1,17 @@
 @media (prefers-color-scheme: dark) {
-    .appmsg_skin_default .rich_media_area_primary {
-        background-color: #FFFFFF !important;
+    body,
+    .icon_appmsg_tag.appmsg_title_tag,
+    .rich_media_meta_text,
+    .icon_appmsg_tag.default,
+    .reward_area_win .reward_user_tips .weui-loadmore__tips a,
+    .simple_pagination,
+    .sp_page_current,
+    blockquote,
+    .blockquote_info,
+    .rich_media_title,
+    .rich_media_content {
+        color: #000000 !important;
     }
+
+    .appmsg_skin_default .rich_media_area_primary {background-color: #FFFFFF !important;}
 }
